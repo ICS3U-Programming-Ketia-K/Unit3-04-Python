@@ -6,18 +6,18 @@
 
 def main():
     # this function tells if an integer is positive, negative or just zero
-
-    # input
-    # this function will let the user input an integer of their choice
+    # Get an input from the user of a integer of their choice
     integer = int(input("Please enter an integer: "))
     print("")
-    # process & output
-    # this function will give an output if one of the statements is true
+
+    # The program receives the input
+    # it will then figure out if the integer is positive, negative or zero
+    # Then, it will give an output of one of the statements that is true
     if integer < 0:
         print("This number is a negative number")
     elif integer > 0:
         print("This number is a positive number")
-    elif integer == 0:
+    else:
         print("This number is just zero!")
 
 
